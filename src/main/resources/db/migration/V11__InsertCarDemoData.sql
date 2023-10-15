@@ -1,0 +1,5 @@
+INSERT INTO car ( model_id, description, reg_number, cover, price, year_model, mileage, body_type_id, gearbox_type_id, horsepower, fuel_type_id, created_date) VALUES
+                                                                                                                                                                   (1, 'Audi A5 in excellent condition', 'ABC401', 'audi-a5.jpg', 45000.00, 2023, 15000, 1, 1, 200, 2, '2023-10-15 09:00:00'),
+                                                                                                                                                                   (3, 'BMW X3 with low mileage', 'ABR98R', 'bmw-x3.jpg', 35000.00, 2019, 10000, 2, 1, 180, 2, '2023-10-15 09:30:00'),
+                                                                                                                                                                   (5, 'Volvo XC60 in great shape', 'YSU238', 'volvo-xc60.jpg', 42000.00, 2022, 8000, 2, 1, 190, 3, '2023-10-15 10:00:00');
+
