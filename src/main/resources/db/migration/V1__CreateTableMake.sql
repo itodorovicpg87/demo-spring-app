@@ -1,4 +1,4 @@
 CREATE TABLE make (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name TEXT
+    name TEXT NOT NULL
 );

@@ -3,7 +3,7 @@ CREATE TABLE car (
     slug TEXT,
     year_model INT NOT NULL,
     reg_number TEXT NOT NULL CHECK (REGEXP_LIKE(reg_number, '^[A-Z]{3}[0-9]{2}[A-Z0-9]{1}$')),
-    model_id INT,
+    model_id INT NOT NULL,
     description TEXT,
     cover BLOB,
     price DECIMAL(10, 2) NOT NULL,
